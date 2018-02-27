@@ -15,7 +15,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('contact')}}">Contact</a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('signup')}}">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('signin')}}">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('logout')}}">Logout</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('viewmessage')}}">View Messages</a>
+            </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
